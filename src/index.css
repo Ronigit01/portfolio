@@ -1,0 +1,18 @@
+
+
+*{
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  color: white;
+  background-color: #060417;
+  /* background-image: url("images/banner.png");
+  background-repeat:no-repeat;
+  background-size: fill; */
+ 
+}
+
