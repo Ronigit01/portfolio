@@ -53,7 +53,7 @@ function Skills() {
   return (
       <div >
       <section className="skills-container">
-        <motion.h5 variants={variants} initial="initial" whileInView="animate">Technical Proficiency</motion.h5>
+        <h5 >Technical Proficiency</h5>
         <div className="skills-content">
             <div className="skills">
                 {SKILLS.map((item)=>{

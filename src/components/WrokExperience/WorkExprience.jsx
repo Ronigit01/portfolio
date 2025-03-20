@@ -51,7 +51,7 @@ function WorkExprience() {
   return (
     <div >
       <section className="experience-container">
-        <motion.h5 variants={variants} initial="initial" whileInView="animate">Work Experience</motion.h5>
+        <h5 >Work Experience</h5>
 
         <div className="experience-content">
           {/* <Slider  ref={sliderRef} {...settings}> */}

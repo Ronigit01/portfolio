@@ -15,10 +15,12 @@ import ProjectUI from './components/Projects/ProjectUI.jsx'
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import { Toaster } from 'react-hot-toast'
+import Soundbar from './components/Soundbar'
 
 function App() {
 
 const App = () => {
+  
   useEffect(() => {
     const sr = ScrollReveal({
       origin: "top",
@@ -33,9 +35,10 @@ const App = () => {
 }
 
   return (
+    <>
+    
     <BrowserRouter>
-
-      
+      <Soundbar />
     <Routes>
     
         <Route path="/" element={<Home />}>
@@ -50,6 +53,7 @@ const App = () => {
     
     <Toaster />
     </BrowserRouter>
+    </>
   )
 }
 

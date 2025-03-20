@@ -22,7 +22,7 @@ function Projects() {
   return (
     <div className="project-main-container">
       <motion.h2 initial="hidden"
-    whileInView="visible"
+    animate="visible"
     viewport={{ once: false, amount: 0.4 }} // Triggers animation when 20% of the card is visible
     variants={cardVariants} >Recent Projects</motion.h2>
      <div className="project-name">

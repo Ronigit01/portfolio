@@ -7,6 +7,8 @@ import img2 from "../../../public/images/css.png"
 import img3 from "../../../public/images/react.png"
 import image from "../../../public/images/ecom3.jpg"
 import image2 from "../../../public/images/portfolio2.jpg"
+import image3 from "../../../public/images/agency1.png"
+import image4 from "../../../public/images/task.png"
 
 
 function ProjectFrontend() {
@@ -29,6 +31,25 @@ function ProjectFrontend() {
     img1={img1}
     img2={img2}
     img3={img3}
+     link = {"https://delightful-pudding-133fa3.netlify.app/"}
+    />
+    <ProjectCard 
+    title={"Agency Website"}
+    description={"A modern, responsive agency website featuring services, projects, and seamless navigation for a polished experience."}
+    mainImage={image3}
+    img1={img1}
+    img2={img2}
+    img3={img3}
+    link = {"https://startling-sawine-3bb03a.netlify.app/"}
+    />
+    <ProjectCard 
+    title={"Task Management Website"}
+    description={"Task management website enabling admins to assign, and monitor employee tasks with streamlined efficiency."}
+    mainImage={image4}
+    img1={img1}
+    img2={img2}
+    img3={img3}
+    link = {"https://github.com/Ronigit01/Task-Management-Website"}
     />
     
     </div>

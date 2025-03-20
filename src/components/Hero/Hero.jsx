@@ -5,6 +5,7 @@ import ContactInfoCard from '../ContactMe/ContactInfoCard/ContactInfoCard';
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import {Link} from "react-scroll";
 import { NavLink } from 'react-router';
+import Soundbar from '../Soundbar';
 
 
 function Hero() {
@@ -20,6 +21,8 @@ function Hero() {
 
   return (
     <div className="container">
+      
+         
     <section className="hero-container" id="hero-container">
       <div className="hero-content">
         <span className="welcome">Hi ! i'm Roni Shil,</span>
@@ -29,6 +32,7 @@ function Hero() {
         </h2>
         <p style={{color:"#E0E1E4"}}>
         I am a passionate and driven individual, deeply immersed in frontend development & UI/UX designing, with a sharp eye for detail and an unwavering commitment to excellence. 
+              
         </p>
 
         <div className="contact-icon" style={{display:"flex"}}>

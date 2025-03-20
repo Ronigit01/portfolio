@@ -1,8 +1,8 @@
 
 
 .project-card {
-    padding: 1.5rem;
-    width: 19rem;
+    padding: 1rem;
+    width: 18rem;
     height: auto;
     background-color: rgba(6, 40, 72, 0.398);
     border-radius: 1rem;
@@ -70,6 +70,7 @@
 .projects-btn {
     color: rgb(245, 245, 245);
     display: inline-flex;
+    margin-bottom: 8px;
     align-items: center;
     column-gap: 0.4rem;
     transition: color 0.4s;

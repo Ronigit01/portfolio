@@ -13,14 +13,16 @@ import Footer from "../Footer/Fotter"
 
 
 import React from 'react'
+import Soundbar from '../Soundbar'
+
 
 function Home() {
   return (
     <div>
         <Navbar />
         <div className="container">
-      
         <Hero />
+         
         <Skills />
         <WorkExprience />
         <Projects />
@@ -30,6 +32,7 @@ function Home() {
         <div />
       </div>
       <Footer />
+
     </div>
   )
 }
